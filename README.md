@@ -1,6 +1,14 @@
 Apache Traffic Server ingress controller for Kubernetes
 =======================================================
 
+**THIS SOFTWARE IS UNMAINTAINED**.  This old implementation of the TS ingress
+controller is deprecated.  It has several outstanding bugs, many missing
+features, and will not receive any further updates.  Please see
+https://github.com/torchbox/k8s-ts-ingress for a newer, actively developed
+version of the TS ingress controller.
+
+---
+
 This is a Kubernetes ingress controller using Apache Traffic Server.
 It uses [our Docker image](https://github.com/torchbox/docker-trafficserver)
 of Traffic Server 7.0.
